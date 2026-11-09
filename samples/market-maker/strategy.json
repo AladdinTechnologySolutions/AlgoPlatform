@@ -1,0 +1,10 @@
+{
+  "name": "mm-demo",
+  "version": "1.0.0",
+  "entryType": "AlgoPlatform.Strategies.Samples.MarketMaker, AlgoPlatform.Strategies.Samples",
+  "instruments": ["VOD.L", "BARC.L"],
+  "mode": "Paper",
+  "resourceClass": "dedicated-core",
+  "limits": { "maxOrderQty": 1000, "maxPosition": 5000, "maxNotional": 2000000, "maxOrdersPerSec": 50 },
+  "parameters": { "spreadTicks": 2, "size": 100, "requoteTicks": 2 }
+}

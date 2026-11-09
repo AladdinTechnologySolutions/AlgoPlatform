@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AlgoPlatform.Replay\AlgoPlatform.Replay.csproj" />
+    <ProjectReference Include="..\..\src\AlgoPlatform.Strategies.Samples\AlgoPlatform.Strategies.Samples.csproj" />
+  </ItemGroup>
+</Project>

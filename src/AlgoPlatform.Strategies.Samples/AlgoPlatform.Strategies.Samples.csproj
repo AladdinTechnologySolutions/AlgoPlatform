@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AlgoPlatform.Sdk\AlgoPlatform.Sdk.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+bin/
+obj/
+data/
+BenchmarkDotNet.Artifacts/
+*.journal
+.vs/
+*.user
+TestResults/

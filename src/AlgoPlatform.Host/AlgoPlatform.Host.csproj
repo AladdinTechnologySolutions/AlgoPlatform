@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Remove="Microsoft.Extensions.Logging" />
+    <Using Remove="Microsoft.Extensions.Hosting" />
+    <ProjectReference Include="..\AlgoPlatform.Sdk\AlgoPlatform.Sdk.csproj" />
+    <ProjectReference Include="..\AlgoPlatform.Core\AlgoPlatform.Core.csproj" />
+    <ProjectReference Include="..\AlgoPlatform.ReferenceData\AlgoPlatform.ReferenceData.csproj" />
+    <ProjectReference Include="..\AlgoPlatform.MarketData\AlgoPlatform.MarketData.csproj" />
+    <ProjectReference Include="..\AlgoPlatform.Oms\AlgoPlatform.Oms.csproj" />
+    <ProjectReference Include="..\AlgoPlatform.Risk\AlgoPlatform.Risk.csproj" />
+    <ProjectReference Include="..\AlgoPlatform.Gateway\AlgoPlatform.Gateway.csproj" />
+    <ProjectReference Include="..\AlgoPlatform.SimExchange\AlgoPlatform.SimExchange.csproj" />
+  </ItemGroup>
+</Project>

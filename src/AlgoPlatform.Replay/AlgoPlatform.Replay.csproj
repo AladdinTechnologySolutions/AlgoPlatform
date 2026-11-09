@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\AlgoPlatform.Host\AlgoPlatform.Host.csproj" />
+  </ItemGroup>
+</Project>
